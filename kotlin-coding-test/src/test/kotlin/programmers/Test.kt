@@ -1,5 +1,7 @@
 package programmers
 
+import programmers.level2.Carpet
+
 fun main() {
-    print("0111010".filter { it == '1' }.length.toString(2))
+    Carpet().solution(10, 2)
 }
