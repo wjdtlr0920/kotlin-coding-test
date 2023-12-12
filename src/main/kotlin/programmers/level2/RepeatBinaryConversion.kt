@@ -1,8 +1,8 @@
 package programmers.level2
 
 /**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/70129
  * 이진 변환 반복하기
- *
  *
  * 문제 설명
  * 0과 1로 이루어진 어떤 문자열 x에 대한 이진 변환을 다음과 같이 정의합니다.
