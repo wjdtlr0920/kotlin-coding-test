@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="programmers.level2.NumberOfConsecutiveSubsequenceSumsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-12T05:01:24" hostname="Sikui-MacBookPro.local" time="0.033">
-  <properties/>
-  <testcase name="[7,9,1,1,4]을 입력 받을 경우 18이 나와야 한다." classname="programmers.level2.NumberOfConsecutiveSubsequenceSumsTest" time="0.033"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

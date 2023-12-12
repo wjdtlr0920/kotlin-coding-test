@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="programmers.level2.RotateBracketTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-12T06:03:21" hostname="Sikui-MacBookPro.local" time="0.028">
+  <properties/>
+  <testcase name="`[](){}`을 입력 받을 경우 3이 나와야 한다." classname="programmers.level2.RotateBracketTest" time="0.021"/>
+  <testcase name="`}]()[{`을 입력 받을 경우 2이 나와야 한다." classname="programmers.level2.RotateBracketTest" time="0.0"/>
+  <testcase name="`[)(]`을 입력 받을 경우 0이 나와야 한다." classname="programmers.level2.RotateBracketTest" time="0.001"/>
+  <testcase name="`}}}`을 입력 받을 경우 0이 나와야 한다." classname="programmers.level2.RotateBracketTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
