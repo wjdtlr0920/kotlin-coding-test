@@ -1,4 +1,4 @@
-package backjoon
+package backjoon.backjoon1260
 
 /**
  * https://www.acmicpc.net/problem/1260
