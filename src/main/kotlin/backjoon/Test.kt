@@ -1,4 +1,4 @@
-package programmers.backjoon
+package backjoon
 
 class Test {
     fun solution(elements: IntArray): Int {
