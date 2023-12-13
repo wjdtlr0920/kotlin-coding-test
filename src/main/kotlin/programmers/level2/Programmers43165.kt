@@ -1,5 +1,7 @@
 package programmers.level2
 
+import java.util.*
+
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/43165
  *
@@ -22,12 +24,26 @@ package programmers.level2
  * */
 class TargetNumber {
     fun solution(numbers: IntArray, target: Int): Int {
-        // todo: DFS, BFS
-        return 0
+        val stack = Stack<Pair<Int, Int>>()
+        stack.push(0 to 0)
+
+        var count = 0
+
+        while (stack.isNotEmpty()) {
+            val value = stack.pop()
+            if (value.first == 0 || value.first % numbers.size != 0) {
+                stack.push(value.first + 1 to value.second + numbers[value.first])
+                stack.push(value.first + 1 to value.second - numbers[value.first])
+            } else if (value.second == target) {
+                count++
+            }
+        }
+
+        return count
     }
 }
 
 fun main() {
-//    println(TargetNumber().solution(intArrayOf(1, 1, 1, 1, 1), 3)) //5
-//    println(TargetNumber().solution(intArrayOf(4, 1, 2, 1), 4)) //2
+    println(TargetNumber().solution(intArrayOf(1, 1, 1, 1, 1), 3)) //5
+    println(TargetNumber().solution(intArrayOf(4, 1, 2, 1), 4)) //2
 }
