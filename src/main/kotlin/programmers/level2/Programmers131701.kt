@@ -2,6 +2,7 @@ package programmers.level2
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/131701
+ *
  * 연속 부분 수열 합의 개수
  *
  * 문제 설명
@@ -16,7 +17,7 @@ package programmers.level2
  * 3 ≤ elements의 길이 ≤ 1,000
  * 1 ≤ elements의 원소 ≤ 1,000
  * */
-class NumberOfConsecutiveSubsequenceSums {
+class Programmers131701 {
     fun solution(elements: IntArray): Int {
         return elements.mapIndexed { iIndex, i ->
             (iIndex..<elements.size + iIndex).map { jIndex ->

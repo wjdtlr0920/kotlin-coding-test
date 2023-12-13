@@ -17,7 +17,7 @@ package programmers.level2
  * 1 ≤ tangerine의 원소 ≤ 10,000,000
  *
  * */
-class ChoosingTangerines {
+class Programmers138476 {
     fun solution(k: Int, tangerine: IntArray): Int = tangerine.groupBy { it }
         .values
         .sortedByDescending { it.size }

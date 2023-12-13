@@ -2,6 +2,7 @@ package programmers.level2
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/76502
+ *
  * 괄호 회전하기
  *
  * 문제 설명
@@ -15,7 +16,7 @@ package programmers.level2
  * 제한사항
  * s의 길이는 1 이상 1,000 이하입니다.
  * */
-class RotateBracket {
+class Programmers76502 {
 
     private val brackets = listOf("()", "{}", "[]")
 

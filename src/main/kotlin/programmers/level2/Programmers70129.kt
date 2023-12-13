@@ -2,6 +2,7 @@ package programmers.level2
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/70129
+ *
  * 이진 변환 반복하기
  *
  * 문제 설명
@@ -19,7 +20,7 @@ package programmers.level2
  * s에는 '1'이 최소 하나 이상 포함되어 있습니다.
  * */
 
-class RepeatBinaryConversion {
+class Programmers70129 {
     fun solution(s: String): IntArray {
 
         var target = s

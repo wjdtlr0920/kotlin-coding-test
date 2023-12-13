@@ -12,7 +12,7 @@ package programmers.level2
  * arr은 길이 1이상, 15이하인 배열입니다.
  * arr의 원소는 100 이하인 자연수입니다.
  * */
-class LeastCommonMultiples {
+class Programmers12953 {
     fun solution(arr: IntArray): Int = arr.sortedDescending().fold(1) { acc, i -> lcm(acc, i) }
 
     private fun gcd(x: Int, y: Int): Int = if(x % y == 0) y else gcd(y, x % y)
